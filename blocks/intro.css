@@ -1,0 +1,41 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 830px;
+
+  margin: 0;
+  text-align: left;
+}
+
+.intro__title {
+  margin: 92px 0 0;
+  font-family: "Inter-Black", Sans-serif;
+  line-height: 1.07;
+  font-size: 54px;
+}
+
+.intro__quote-text {
+  font-family: "Inter-normal", Sans-serif;
+  line-height: 1.04;
+  font-size: 24px;
+  text-align: left;
+  margin: 40px 0 0;
+}
+
+.intro__quote-author {
+  font-family: "Inter-normal", Sans-serif;
+  line-height: 1.04;
+  font-size: 24px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 98px;
+  margin: 10px 0 0;
+}
+
+.intro__quote-description {
+  font-family: "Inter-normal", Sans-serif;
+  line-height: 1.63;
+  font-size: 16px;
+  margin: 32px 0 0;
+}
