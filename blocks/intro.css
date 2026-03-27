@@ -10,13 +10,13 @@
 
 .intro__title {
   margin: 92px 0 0;
-  font-family: "Inter-Black", Sans-serif;
+  font-family: "Inter-Black", sans-serif;
   line-height: 1.07;
   font-size: 54px;
 }
 
 .intro__quote-text {
-  font-family: "Inter-normal", Sans-serif;
+  font-family: "Inter-normal", sans-serif;
   line-height: 1.04;
   font-size: 24px;
   text-align: left;
@@ -24,7 +24,7 @@
 }
 
 .intro__quote-author {
-  font-family: "Inter-normal", Sans-serif;
+  font-family: "Inter-normal", sans-serif;
   line-height: 1.04;
   font-size: 24px;
   display: flex;
@@ -34,8 +34,93 @@
 }
 
 .intro__quote-description {
-  font-family: "Inter-normal", Sans-serif;
+  font-family: "Inter-normal", sans-serif;
   line-height: 1.63;
   font-size: 16px;
   margin: 32px 0 0;
+}
+
+@media (max-width: 768px) {
+  .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 90px 24px 0;
+    text-align: left;
+    max-width: 720px;
+  }
+
+  .intro__title {
+    margin: 0;
+    line-height: 1.08;
+    font-size: 45px;
+    max-width: 707px;
+  }
+
+  .intro__quote-text {
+    line-height: 1.41;
+    font-size: 24px;
+    margin: 50px 0 0;
+    max-width: 720px;
+  }
+
+  .intro__quote-author {
+    line-height: 1.41;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px;
+    margin: 10px 0 0;
+    max-width: 720px;
+  }
+
+  .intro__quote-description {
+    line-height: 1.63;
+    font-size: 16px;
+    margin: 32px 0 0;
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 64px 16px 0;
+    text-align: left;
+    max-width: 288px;
+    box-sizing: border-box;
+  }
+
+  .intro__title {
+    max-width: 288px;
+    margin: 0;
+    line-height: 1.09;
+    font-size: 32px;
+  }
+
+  .intro__quote-text {
+    max-width: 288px;
+    max-height: 180px;
+    line-height: 1.25;
+    font-size: 24px;
+    margin: 40px 0 0;
+  }
+
+  .intro__quote-author {
+    max-width: 288px;
+    line-height: 1.25;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0 0;
+  }
+
+  .intro__quote-description {
+    max-width: 288px;
+    line-height: 1.63;
+    font-size: 16px;
+    margin: 32px 0 0;
+  }
 }
