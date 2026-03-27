@@ -13,26 +13,26 @@
     margin: 30px auto 0;
   }
 
-  .lead {
+  .header {
     margin: 90px auto 0;
     max-width: 720px;
   }
 
-  .lead__title {
+  .header__title {
     line-height: 1.05;
     font-size: 75px;
     margin: 0;
     max-width: 500px;
   }
 
-  .lead__subtitle {
+  .header__subtitle {
     line-height: 1.2;
     margin: 25px 0px 0px;
     font-size: 30px;
     max-width: 720px;
   }
 
-  .lead__image {
+  .header__image {
     margin-top: 30px;
     width: 100%;
   }
@@ -99,25 +99,25 @@
     margin: 20px auto 0;
   }
 
-  .lead {
+  .header {
     margin: 50px auto 0;
     max-width: 288px;
   }
 
-  .lead__title {
+  .header__title {
     line-height: 1.1;
     font-size: 40px;
     margin: 0px;
     max-width: 250px;
   }
 
-  .lead__subtitle {
+  .header__subtitle {
     margin: 16px 0px 0px;
     line-height: 1.25;
     font-size: 16px;
   }
 
-  .lead__image {
+  .header__image {
     margin: 40px 0 0;
     max-width: 100%;
   }
